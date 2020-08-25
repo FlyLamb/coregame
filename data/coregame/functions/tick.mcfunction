@@ -1,1 +1,2 @@
 function coregame:conveyours
+function coregame:ticktime
