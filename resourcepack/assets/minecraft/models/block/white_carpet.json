@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 28, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 8, 0.5]},
+			"color": 4,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "block/cock"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "block/cock"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "block/cock"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "block/cock"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "block/cock"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "block/cock"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-15.25, 0, 0],
+			"translation": [1, 0, 7.5],
+			"scale": [1, 0.24805, 1]
+		}
+	}
+}
