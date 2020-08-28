@@ -1,4 +1,4 @@
-#file: ./machines/conveyour
+#file: ./conveyour
 
 const conveyourSpeed = 0.05;
 
