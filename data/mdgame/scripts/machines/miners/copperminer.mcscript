@@ -1,7 +1,7 @@
 #file: ./copper
 
 //Calculate if it should run
-var T1MiningSpeed = 10
+var T1MiningSpeed = 20
 
 var calcTick = 0
 calcTick = MachineTick
