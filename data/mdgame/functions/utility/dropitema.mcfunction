@@ -13,4 +13,4 @@ execute if score @s itemcounts matches 1.. run kill @e[type=item,nbt={Item:{id:"
 execute if score @s itemcounts matches 1.. store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
 execute if score @s itemcounts matches 1.. run scoreboard players remove @s itemcounts 1
 execute if score @s itemcounts matches 1.. store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players get @s itemcounts
-execute if score @s itemcounts matches 1.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1"]
+execute if score @s itemcounts matches 1.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1",limit=1,sort=nearest]
