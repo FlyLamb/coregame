@@ -1,6 +1,11 @@
 #file: ./copper
 
-if("block ~ ~-2 ~ #mdgame:coppertier")
+const MiningSpeed = 10
+
+if(MachineTick%MiningSpeed == 0)
 {
-    /loot insert ~ ~ ~ mine ~ ~-2 ~
+    if("block ~ ~-2 ~ #mdgame:coppertier")
+    {
+        /loot insert ~ ~ ~ mine ~ ~-2 ~
+    }
 }

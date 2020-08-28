@@ -7,3 +7,4 @@
 function mdgame:mcscript/load
 
 tellraw @a [{"text":"console => ","color":"aqua"},{"text":"Loading Game Data","color":"white"}]
+scoreboard players set MachineTick MachineTick 0

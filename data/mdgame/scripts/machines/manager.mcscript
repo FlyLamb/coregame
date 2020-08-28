@@ -5,3 +5,6 @@ asat (@e[name="T1Miner"]) {
 }
 
 /function mdgame:machines/conveyour
+
+
+MachineTick++

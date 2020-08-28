@@ -6,3 +6,4 @@
 ######
 execute as @e[name="T1Miner"] at @s run function mdgame:machines/miners/copper
 function mdgame:machines/conveyour
+scoreboard players add MachineTick MachineTick 1

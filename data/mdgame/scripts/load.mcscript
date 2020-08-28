@@ -3,3 +3,4 @@
 
 // here goes your load content
 log("Loading Game Data")
+var MachineTick = 0
