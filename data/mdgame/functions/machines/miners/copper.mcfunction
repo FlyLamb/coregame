@@ -9,3 +9,5 @@ scoreboard players set calcTick calcTick 0
 scoreboard players operation calcTick calcTick = MachineTick MachineTick
 scoreboard players operation calcTick calcTick %= T1MiningSpeed T1MiningSpeed
 execute if score calcTick calcTick matches 0 if block ~ ~-2 ~ #mdgame:coppertier run loot insert ~ ~ ~ mine ~ ~-2 ~
+
+function mdgame:utility/dropitemo1

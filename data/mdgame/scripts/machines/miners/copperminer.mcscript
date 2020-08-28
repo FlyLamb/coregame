@@ -16,3 +16,5 @@ if(calcTick == 0)
         /loot insert ~ ~ ~ mine ~ ~-2 ~
     }
 }
+
+/function mdgame:utility/dropitemo1
