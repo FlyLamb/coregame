@@ -2,4 +2,4 @@
 #file: ./main
 // here goes your main content
 // executes 20 times a second
-/function gameObjects/conveyour
+/function mdgame:gameobjects/conveyour
