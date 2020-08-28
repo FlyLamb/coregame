@@ -6,4 +6,4 @@
 ######
 function mdgame:mcscript/load
 
-tellraw @a [{"text":"console => ","color":"aqua"},{"text":"Test MCSCRIPT","color":"white"}]
+tellraw @a [{"text":"console => ","color":"aqua"},{"text":"Loading Game Data","color":"white"}]

@@ -1,0 +1,23 @@
+#file: ./gameObjects/conveyour
+
+const conveyourSpeed = 0.1;
+
+asat(@e) { 
+    if("block ~ ~-1 ~ magenta_glazed_terracotta[facing=north]") {
+        /tp @s[type=player] ~ ~ ~$(conveyourSpeed)
+        /data merge entity @s[type=!player] {Motion:[0.0,-0.8,$(conveyourSpeed)]}
+    }
+    if("block ~ ~-1 ~ magenta_glazed_terracotta[facing=south]") {
+        /tp @s[type=player] ~ ~ ~-$(conveyourSpeed)
+        /data merge entity @s[type=!player] {Motion:[0.0,-0.8,-0.1]}
+    }
+    if("block ~ ~-1 ~ magenta_glazed_terracotta[facing=west]") {
+        /tp @s[type=player] ~$(conveyourSpeed) ~ ~
+        /data merge entity @s[type=!player] {Motion:[$(conveyourSpeed),-0.8,0.0]}
+    }
+    if("block ~ ~-1 ~ magenta_glazed_terracotta[facing=east]") {
+        /tp @s[type=player] ~-$(conveyourSpeed) ~ ~
+        /data merge entity @s[type=!player] {Motion:[-$(conveyourSpeed),-0.8,0.0]}
+    }
+    
+}
