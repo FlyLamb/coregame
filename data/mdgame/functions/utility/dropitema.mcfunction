@@ -11,7 +11,6 @@ execute if score @s itemcounts matches 2.. run summon minecraft:item ~ ~1 ~ {Ite
 execute if score @s itemcounts matches 2.. run data modify entity @e[type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:barrier"}},limit=1,tag=seeko1] Item.id set from block ~ ~ ~ Items[0].id
 execute if score @s itemcounts matches 2.. run data modify block ~ ~ ~ Items[0].Count set from block ~ ~ ~ Items[0].Count
 execute if score @s itemcounts matches 2.. run kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-execute if score @s itemcounts matches 2.. store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
 execute if score @s itemcounts matches 2.. run scoreboard players remove @s itemcounts 1
 execute if score @s itemcounts matches 2.. store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players get @s itemcounts
 execute if score @s itemcounts matches 2.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1",limit=1,sort=nearest,distance=..2]
