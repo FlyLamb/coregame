@@ -1,4 +1,4 @@
-#file: ./gameobjects/conveyour
+#file: ./machines/conveyour
 
 const conveyourSpeed = 0.1;
 
