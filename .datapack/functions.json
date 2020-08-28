@@ -1,1 +1,1 @@
-{"mdgame":{"mcscript":{"$func":["load"]},"$func":["main","load"],"gameobjects":{"$func":["conveyour"]}}}
+{"mdgame":{"$func":["conveyour","main","load","conveyour"],"mcscript":{"$func":["load"]}}}
