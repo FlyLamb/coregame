@@ -1,3 +1,6 @@
 #file: ./copper
 
-log("test")
+if("block ~ ~-2 ~ #mdgame:coppertier")
+{
+    /loot insert ~ ~ ~ mine ~ ~-2 ~
+}

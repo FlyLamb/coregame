@@ -1,0 +1,7 @@
+#file: ./manager
+
+asat (@e[name="T1Miner"]) {
+    /function mdgame:machines/miners/copper
+}
+
+/function mdgame:machines/conveyour
