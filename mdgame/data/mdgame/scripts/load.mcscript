@@ -1,0 +1,5 @@
+
+#file: ./load
+
+// here goes your load content
+log("Test MCSCRIPT")
