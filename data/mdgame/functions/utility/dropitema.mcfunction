@@ -15,3 +15,4 @@ execute if score @s itemcounts matches 1.. store result score @s itemcounts run 
 execute if score @s itemcounts matches 1.. run scoreboard players remove @s itemcounts 1
 execute if score @s itemcounts matches 1.. store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players get @s itemcounts
 execute if score @s itemcounts matches 1.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1",limit=1,sort=nearest,distance=..2]
+execute if score @s itemcounts matches 1.. run tag @e[type=minecraft:item,tag=seeko1] remove seeko1
