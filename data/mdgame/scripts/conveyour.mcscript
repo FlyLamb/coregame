@@ -1,6 +1,6 @@
 #file: ./machines/conveyour
 
-const conveyourSpeed = 0.1;
+const conveyourSpeed = 0.05;
 
 asat(@e) { 
     if("block ~ ~-1 ~ magenta_glazed_terracotta[facing=north]") {
