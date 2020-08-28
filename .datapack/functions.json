@@ -1,1 +1,1 @@
-{"mdgame":{"machines":{"$func":["conveyour","conveyour"]},"$func":["main","load"],"mcscript":{"$func":["load"]}}}
+{"mdgame":{"$func":["main","load"],"mcscript":{"$func":["load"]},"machines":{"miners":{"machines":{"miners":{"$func":["copper"]}}},"machines":{"$func":["conveyour"]}}}}

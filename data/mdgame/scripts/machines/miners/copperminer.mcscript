@@ -1,0 +1,3 @@
+#file: ./machines/miners/copper
+
+log("test")
