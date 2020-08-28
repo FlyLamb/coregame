@@ -17,4 +17,4 @@ if(calcTick == 0)
     }
 }
 
-/function mdgame:utility/dropitemo1
+/function mdgame:utility/dropitema
