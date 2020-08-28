@@ -1,4 +1,4 @@
-#file: ./dropitemo1
+#file: ./dropitema
 var itemcounts = 0
 /execute store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
 if("score @s itemcounts matches 1..")
