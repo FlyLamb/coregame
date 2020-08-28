@@ -2,7 +2,7 @@
 var itemcounts = 0
 
 /execute store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
-if("score @s itemcounts matches 1..")
+if("score @s itemcounts matches 0..")
 {
     log("run dropitem a ")
     /scoreboard players remove @s itemcounts 1
