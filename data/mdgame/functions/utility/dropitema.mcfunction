@@ -6,11 +6,11 @@
 ######
 scoreboard players set itemcounts itemcounts 0
 execute store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
-execute if score @s itemcounts matches 2.. run tellraw @a [{"text":"console => ","color":"aqua"},{"text":"run dropitem a ","color":"white"}]
-execute if score @s itemcounts matches 2.. run scoreboard players remove @s itemcounts 2
-execute if score @s itemcounts matches 2.. run summon minecraft:item ~ ~1 ~ {Item:{id:"barrier",Count:1b,Damage:0s},Tags:["seeko1"]}
-execute if score @s itemcounts matches 2.. run data modify entity @e[type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:barrier"}},limit=1,tag=seeko1] Item.id set from block ~ ~ ~ Items[0].id
-execute if score @s itemcounts matches 2.. run kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-execute if score @s itemcounts matches 2.. store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players get @s itemcounts
-execute if score @s itemcounts matches 2.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1",limit=1,sort=nearest,distance=..2]
-execute if score @s itemcounts matches 2.. run tag @e[type=minecraft:item,tag=seeko1] remove seeko1
+execute if score @s itemcounts matches 1.. run tellraw @a [{"text":"console => ","color":"aqua"},{"text":"run dropitem a ","color":"white"}]
+execute if score @s itemcounts matches 1.. run scoreboard players remove @s itemcounts 1
+execute if score @s itemcounts matches 1.. run summon minecraft:item ~ ~1 ~ {Item:{id:"barrier",Count:1b,Damage:0s},Tags:["seeko1"]}
+execute if score @s itemcounts matches 1.. run data modify entity @e[type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:barrier"}},limit=1,tag=seeko1] Item.id set from block ~ ~ ~ Items[0].id
+execute if score @s itemcounts matches 1.. run kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
+execute if score @s itemcounts matches 1.. store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players get @s itemcounts
+execute if score @s itemcounts matches 1.. run tp @e[type=minecraft:item,distance=..2,limit=1,tag=seeko1] @e[name="output1",limit=1,sort=nearest,distance=..2]
+execute if score @s itemcounts matches 1.. run tag @e[type=minecraft:item,tag=seeko1] remove seeko1
