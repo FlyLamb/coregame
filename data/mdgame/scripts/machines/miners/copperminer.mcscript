@@ -1,8 +1,15 @@
 #file: ./copper
 
-const MiningSpeed = 10
+//Calculate if it should run
+var T1MiningSpeed = 10
 
-if(MachineTick%MiningSpeed == 0)
+var calcTick = 0
+calcTick = MachineTick
+calcTick %= T1MiningSpeed
+
+//Run
+
+if(calcTick == 0)
 {
     if("block ~ ~-2 ~ #mdgame:coppertier")
     {

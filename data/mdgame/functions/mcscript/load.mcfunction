@@ -10,3 +10,10 @@
 # please do not touch this file!
 # it is used by the compiler!
 scoreboard objectives add MachineTick dummy
+
+# Extended from functions/machines/miners/copperminer.mcscript
+# to data/mdgame/functions/mcscript/load.mcfunction
+# please do not touch this file!
+# it is used by the compiler!
+scoreboard objectives add T1MiningSpeed dummy
+scoreboard objectives add calcTick dummy
