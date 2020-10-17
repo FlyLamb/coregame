@@ -6,7 +6,7 @@
 ######
 scoreboard players set itemcounts itemcounts 0
 execute store result score @s itemcounts run data get block ~ ~ ~ Items[0].Count
-execute if score @s itemcounts matches 0.. run tellraw @a [{"text":"console => ","color":"aqua"},{"text":"run dropitem a ","color":"white"}]
+execute if score @s itemcounts matches 0.. run tellraw @a [{"text":"console => ","color":"aqua"},{"text":"yea boi","color":"white"}]
 execute if score @s itemcounts matches 0.. run scoreboard players remove @s itemcounts 1
 execute if score @s itemcounts matches 0.. run summon minecraft:item ~ ~1 ~ {Age:-32768,Item:{id:"barrier",Count:1b,Damage:0s},Tags:["seeko1"]}
 execute if score @s itemcounts matches 0.. run data modify entity @e[type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:barrier"}},limit=1,tag=seeko1] Item.id set from block ~ ~ ~ Items[0].id
