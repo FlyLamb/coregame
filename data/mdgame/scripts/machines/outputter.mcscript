@@ -1,0 +1,5 @@
+#file: ./outputter
+
+if ("block ~ ~ ~ air") {
+    /kill @s
+}

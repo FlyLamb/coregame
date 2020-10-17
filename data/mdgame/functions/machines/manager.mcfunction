@@ -6,5 +6,7 @@
 ######
 execute as @e[name="p_T1Miner"] at @s run function mdgame:machines/machine_placers/p_copper
 execute as @e[name="T1Miner"] at @s run function mdgame:machines/miners/copper
+execute as @e[name="p_outputter"] at @s run function mdgame:machines/machine_placers/p_outputter
+execute as @e[name="output0"] at @s run function mdgame:machines/outputter
 function mdgame:machines/conveyour
 scoreboard players add MachineTick MachineTick 1

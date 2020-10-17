@@ -1,3 +1,4 @@
 #file: ./p_outputter
 
 /setblock ~ ~ ~ minecraft:torch
+/summon ~ ~ ~ minecraft:armor_stand {CustomName:"\"output1\"", Marker:1b, Invisible:1b}

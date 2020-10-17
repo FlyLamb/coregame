@@ -8,6 +8,15 @@ asat (@e[name="T1Miner"]) {
     /function mdgame:machines/miners/copper
 }
 
+asat(@e[name="p_outputter"]) {
+    /function mdgame:machines/machine_placers/p_outputter
+}
+
+asat(@e[name="output0"]) {
+    /function mdgame:machines/outputter
+}
+
+
 /function mdgame:machines/conveyour
 
 
